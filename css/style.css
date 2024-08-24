@@ -1,9 +1,58 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
+  width: 100vw;
+  height: 10vh;
 
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  background-color: rgb(108, 255, 71);
+}
+
+.header-content {
+  width: auto;
+  height: 100%;
+  padding-right: 2vw;
+  padding-left: 2vw;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15pt;
+
+  color: black;
+}
+
+.header-content:hover {
+  background-color: rgb(96, 236, 61);
+}
+
+#contact {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title {
+  font-size: 16pt;
+}
+
+form {
+  width: 40vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  background-color: green;
 }
