@@ -1,9 +1,14 @@
+/* Configurações globais */
+
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Cabeçalho da página */
 
 .menu {
   background-color: #023047;
@@ -39,6 +44,8 @@ nav ul {
   margin-right: 20px;
 }
 
+/* Banner  principal */
+
 img {
   display: flex;
 }
@@ -57,6 +64,67 @@ img {
 .banner-container {
   display: flex;
 }
+
+/* Sessão de produtos */
+
+#products {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 5vh;
+}
+
+.products-title {
+  font-size: 20pt;
+}
+
+.products-wrapper {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 20vw;
+  height: auto;
+  min-width: 300px;
+
+  border-radius: 10px;
+  background-color: #fcfcfc;
+  box-shadow: 0 0 5px #b8b8b8;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  border: 1px hidden black;
+  margin: 15px;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.card-img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.card-product {
+  font-size: 14pt;
+}
+
+/* Formulário de contatos */
 
 #contact {
   width: 100%;
@@ -120,6 +188,12 @@ input {
   box-shadow: 3px 3px 2px rgb(0, 0, 214, 0.3);
   color: white;
 }
+
+.form-button:hover {
+  cursor: pointer;
+}
+
+/* Rodapé da página */
 
 footer {
   background-color: rgb(106, 174, 230);
